@@ -5,7 +5,7 @@ Takeover is a casual, turn-based strategy game. It is heavily influenced
 by (or: a clone of) the KDE game [Konquest](https://apps.kde.org/konquest/),
 with slightly snazzier graphics and user interface.
 
-| ![Splash screen](imgs/splash-360x240.png) | ![Game screenshot](imgs/game-360x240.png) |
+![Splash screen](imgs/splash-360x240.png) | ![Game screenshot](imgs/game-360x240.png)
 
 
 ## Game Play:
