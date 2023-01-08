@@ -43,7 +43,7 @@ commands will install `takeover` including its dependencies:
 ```
 python -m venv venv
 source venv/bin/activate   # or: source venv/bin/activate.csh
-pip install git+https://github.org/janert/takeover
+pip install git+https://github.com/janert/takeover
 
 venv/bin/takeover          # this will launch the game
 ```
@@ -56,7 +56,9 @@ python -m venv venv
 source venv/bin/activate   # or: source venv/bin/activate.csh
 pip install pyglet
 
-git clone ...
+git clone https://github.com/janert/takeover.git
+
+cd takeover
 
 python -m takeover         # or: python takeover/takeover.py
 ```
