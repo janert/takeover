@@ -1,0 +1,33 @@
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "takeover"
+description = "TakeOver - A Turn-Based Strategy Game"
+authors = [
+  {email = "janert@ieee.org"},
+  {name = "Philipp K. Janert"}
+  ]
+version = "0.0.1"
+readme = "README.md"
+license = {text = "BSD 3-Clause License"}
+#license = {file = "LICENSE"}
+requires-python = ">=3.7"
+dependencies = [
+    "pyglet>=2.0.2.1"
+]
+
+[project.gui-scripts]
+takeover = "takeover.takeover:main"
+
+[project.urls]
+homepage = "https://janert.me"
+repository = "https://github.com/janert/takeover.git"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = [""]

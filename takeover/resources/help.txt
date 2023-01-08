@@ -1,0 +1,5 @@
+Space to update, ESC to quit
+Drag-n-drop from a human-owned planet
+to launch fleet
+Power: ships * strength
+Value: prod * strength

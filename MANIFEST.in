@@ -1,0 +1,3 @@
+include takeover/resources/*.txt
+include takeover/resources/*.png
+include takeover/resources/planets/*.png

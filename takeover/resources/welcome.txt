@@ -1,0 +1,11 @@
+Welcome to Takeover!
+
+The goal of the game is to take over all other planets in the galaxy, against the opposition of a group of computer players.
+
+Initially, every player occupies just one planet each. There will also be some neutral, unoccupied planets. Each planet produces a fixed number of ships at each time step. The ships created by each planet differ in their strength in battle.
+
+Players can send fleets of ships from any planet they occupy to any other planet. Upon arrival, the arriving fleet will fight against any ships currently present on the destination planet. If the attack succeeds, the attacker becomes the new owner of the planet. Opponents' fleets are not visible while underway.
+
+The game ends if all planets are owned by a single player, and no player still has a fleet underway.
+
+Hint: The game is easier to win with more opponents around!
