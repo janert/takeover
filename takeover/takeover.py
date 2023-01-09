@@ -3,24 +3,16 @@ import random
 
 import pyglet
 
-"""
 # if run as a script, pull from local directory
 # otherwise (if run as module), pull from package
 if __name__ == "__main__":
     import utils
     import gamelogic
 else:
-    import takeover.utils as utils
-    import takeover.gamelogic as gamelogic
-"""
-
-# Comment as before
-if __name__ == "__main__":
-    import utils
-    import gamelogic
-else:
     from . import utils
     from . import gamelogic
+    # import takeover.utils as utils
+    # import takeover.gamelogic as gamelogic
     
     
 class SplashController( utils.Controller ):

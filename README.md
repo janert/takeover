@@ -34,33 +34,33 @@ Hint: The game is easier to win with more opponents around!
 
 This application depends on **Version 2** of the pyglet library.
 This version is quite new (November 2022), and most likely _not_
-installed as part of a Linux distro.
+installed as part of a Linux distro, or in a distro's package repo.
 
 It is probably easiest to install the dependencies in a virtual
 environment. Assuming you have `venv` installed, the following
 commands will install `takeover` including its dependencies:
 
 ```
-python -m venv venv
-source venv/bin/activate   # or: source venv/bin/activate.csh
-pip install git+https://github.com/janert/takeover
+python3 -m venv venv
+source venv/bin/activate    # or: source venv/bin/activate.csh
+pip3 install git+https://github.com/janert/takeover
 
-venv/bin/takeover          # this will launch the game
+venv/bin/takeover           # this will launch the game
 ```
 
 Alternatively, you can clone the repo and run the game "from source".
 In this case, `pyglet` must be installed explicitly, like so:
 
 ```
-python -m venv venv
-source venv/bin/activate   # or: source venv/bin/activate.csh
-pip install pyglet
+python3 -m venv venv
+source venv/bin/activate    # or: source venv/bin/activate.csh
+pip3 install pyglet
 
 git clone https://github.com/janert/takeover.git
 
 cd takeover
 
-python -m takeover         # or: python takeover/takeover.py
+python3 -m takeover         # or: python3 takeover/takeover.py
 ```
 
 
